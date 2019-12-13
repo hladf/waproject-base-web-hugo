@@ -1,0 +1,11 @@
+{
+  "project": "teste-tecnico-web-hugo",
+  "repository": "repositorio_var",
+  "endpointDev": "http://localhost:3001",
+  "endpointProd": "",
+  "dockerImage": "waproject/teste-tecnico-hugo",
+  "dockerCredentials": "hugolf",
+  "sentryDsn": "https://890e962668804e4a9da124e0baa9265a@sentry.io/1855766",
+  "confirmed": true,
+  "slug": "teste-tecnico-web-hugo"
+}
