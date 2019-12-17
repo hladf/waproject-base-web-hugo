@@ -5,6 +5,8 @@ teste-tecnico-web-hugo
 
 Fiz uma sessão a mais no menu para controlar o `estoque de produtos` (e não `pedidos` como disse no email)
 
+Iniciar primeiro o servidor da API e depois o do Front.
+
 Por conta dos imprevistos com bugs e o fato de não ter tido o tempo de sabado e domingo, acabei dando preferência á fazer funcionar primeiro do que caprichar no visual e fazer uma boa visualização de detalhes do produto.
 
 
