@@ -10,19 +10,19 @@ export class UserService {
   constructor(private apiService: ApiService) {}
 
   public list(params: IPaginationParams): Observable<IPaginationResponse<IUser>> {
-    return this.apiService.get('/user', params);
+    return this.apiService.get('/admin/user', params);
   }
 
   public roles(refresh: boolean = false): Observable<IUserRole[]> {
-    return this.apiService.get('/user/roles').pipe(cache('user-service-roles', { refresh }));
+    return this.apiService.get('/admin/user/roles').pipe(cache('user-service-roles', { refresh }));
   }
 
   public save(model: IUser): Observable<IUser> {
-    return this.apiService.post('/user', model);
+    return this.apiService.post('/admin/user/save', model);
   }
 
   public delete(id: number): Observable<void> {
-    return this.apiService.delete(`/user/${id}`);
+    return this.apiService.delete(`/admin/user/${id}`);
   }
 }
 
